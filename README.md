@@ -1,21 +1,26 @@
 # YEPS docker example
 
+YEPS app example using docker
+
 ## How to use
 
  * [Install docker](https://docs.docker.com/engine/installation/)
  * Build image
- 
+
+
     $ docker build -t yeps .
     
  * Check images
+ 
  
     $ docker images
     
  * Run the image
  
+ 
     $ docker run -p 3000:3000 -d yeps
     
- * Open http://localhost:3000/
+ * Open [http://localhost:3000/](http://localhost:3000/)
  
 Print the output of your app:
  
