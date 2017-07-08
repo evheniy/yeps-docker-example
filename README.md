@@ -42,8 +42,8 @@ To test your app, get the port of your app that Docker mapped:
     $ docker ps
     
     # Example
-    CONTAINER ID   IMAGE   COMMAND        CREATED              STATUS              PORTS                    NAMES
-    dba798d9b52a   yeps    "npm start"    About a minute ago   Up About a minute   0.0.0.0:3000->3000/tcp   dreamy_euler
+    CONTAINER ID   IMAGE   COMMAND        PORTS                    NAMES
+    dba798d9b52a   yeps    "npm start"    0.0.0.0:3000->3000/tcp   dreamy_euler
 
 To stop:
 
