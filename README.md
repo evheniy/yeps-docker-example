@@ -10,15 +10,18 @@ YEPS app example using docker
 
     $ docker build -t yeps .
     
+    
  * Check images
  
  
     $ docker images
     
+    
  * Run the image
  
  
     $ docker run -p 3000:3000 -d yeps
+    
     
  * Open [http://localhost:3000/](http://localhost:3000/)
  
