@@ -7,19 +7,19 @@ YEPS app example using docker
  * [Install docker](https://docs.docker.com/engine/installation/)
  * Build image
 
-
+    
     $ docker build -t yeps .
     
     
  * Check images
  
- 
+    
     $ docker images
     
     
  * Run the image
  
- 
+    
     $ docker run -p 3000:3000 -d yeps
     
     
