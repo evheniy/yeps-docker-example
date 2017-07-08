@@ -30,23 +30,23 @@ Print the output of your app:
     # Get container ID
     $ docker ps
     
+    # Example
+    CONTAINER ID   IMAGE   COMMAND        PORTS                    NAMES
+    dba798d9b52a   yeps    "npm start"    0.0.0.0:3000->3000/tcp   dreamy_euler
+    
     # Print app output
     $ docker logs <container id>
 
 If you need to go inside the container you can use the exec command:
 
-    $ docker exec -it <container id> /bin/bash
+```bash
+$ docker exec -it <container id> /bin/bash
+```
     
-To test your app, get the port of your app that Docker mapped:
-
-    $ docker ps
-    
-    # Example
-    CONTAINER ID   IMAGE   COMMAND        PORTS                    NAMES
-    dba798d9b52a   yeps    "npm start"    0.0.0.0:3000->3000/tcp   dreamy_euler
-
 To stop:
 
-    $ docker stop <container id>
+```bash
+$ docker stop <container id>
+```
 
 #### [YEPS documentation](http://yeps.info/)
